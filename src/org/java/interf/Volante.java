@@ -1,6 +1,6 @@
 package org.java.interf;
 
-public interface Vola {
+public interface Volante {
 	
 	void vola();
 }

@@ -1,9 +1,9 @@
 package org.java.animali;
 
 import org.java.abs.Animale;
-import org.java.interf.Nuota;
+import org.java.interf.Nuotante;
 
-public class Delfino extends Animale implements Nuota{
+public class Delfino extends Animale implements Nuotante{
 
 	public Delfino(String nome) {
 		

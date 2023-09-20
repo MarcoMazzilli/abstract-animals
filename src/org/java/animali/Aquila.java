@@ -1,9 +1,9 @@
 package org.java.animali;
 
 import org.java.abs.Animale;
-import org.java.interf.Vola;
+import org.java.interf.Volante;
 
-public class Aquila extends Animale implements Vola {
+public class Aquila extends Animale implements Volante {
 
 	public Aquila(String nome) {
 		
@@ -24,7 +24,7 @@ public class Aquila extends Animale implements Vola {
 
 	@Override
 	public void vola() {
-		System.out.println("Sto volando");		
+		System.out.println("Sto volando!");		
 	}
 
 }
