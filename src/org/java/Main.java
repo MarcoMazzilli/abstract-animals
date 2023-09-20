@@ -1,4 +1,4 @@
-package org.java.zoo;
+package org.java;
 
 import org.java.abs.Animale;
 import org.java.animali.Cane;
@@ -17,6 +17,10 @@ public class Main {
 		Animale p1 = new Passerotto("Cippi");
 		System.out.println(p1);
 		p1.dormi();
+		if(p1 instanceof Passerotto) {
+			Passerotto p = (Passerotto) p1;
+			p.vola();
+		}
 		
 		
 	}

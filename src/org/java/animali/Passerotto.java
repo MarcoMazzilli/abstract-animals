@@ -1,8 +1,9 @@
 package org.java.animali;
 
 import org.java.abs.Animale;
+import org.java.interf.Vola;
 
-public class Passerotto extends Animale {
+public class Passerotto extends Animale implements Vola {
 
 	public Passerotto(String nome) {
 		super(nome);
@@ -19,6 +20,10 @@ public class Passerotto extends Animale {
 	public String mangia() {
 		return "Sto mangiando vermetti";
 		
+	}
+	@Override
+	public void vola() {
+		System.out.println("Sto volando");
 	}
 
 }

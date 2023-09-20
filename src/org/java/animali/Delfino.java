@@ -1,8 +1,9 @@
 package org.java.animali;
 
 import org.java.abs.Animale;
+import org.java.interf.Nuota;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements Nuota{
 
 	public Delfino(String nome) {
 		
@@ -19,6 +20,11 @@ public class Delfino extends Animale {
 	public String mangia() {
 
 		return "Mangio i pesciolini";
+	}
+
+	@Override
+	public void nuota() {
+		System.out.println("Sto nuotando!");
 	}
 
 }
